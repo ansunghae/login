@@ -4,14 +4,14 @@
   "description": "",
   "main": "app.js",
   "bin": {
-    "login": "bin/www.js"
+    "login": "www.js"
   },
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
   },
   "scripts": {
-    "start": "node ./app/bin/www.js",
+    "start": "nodemon ./app/bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
