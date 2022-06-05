@@ -8,7 +8,7 @@ const app = express();
 const home = require("./src/routes/home");
 
 //App setting
-app.set("views", "./src/views");
+app.set("views", "./app/src/views");
 app.set("view engine", "ejs");
 
 app.use("/", home);
